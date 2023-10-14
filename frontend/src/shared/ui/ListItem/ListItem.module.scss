@@ -1,0 +1,105 @@
+.ListItem {
+	position: relative;
+
+	font: var(--font-s);
+	width: fit-content;
+	height: 49px;
+	padding: 12px;
+	border-radius: 6px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 15px;
+	cursor: pointer;
+}
+
+.primary {
+	color: var(--primary-color);
+}
+.inverted_secondary {
+	color: var(--inverted-secondary);
+}
+
+.clear {
+	color: var(--gray-color);
+	path {
+		stroke: var(--gray-color);
+	}
+}
+
+.hover_primary {
+	&:hover {
+		color: var(--primary-color);
+	}
+
+	&:hover path {
+		stroke: var(--primary-color);
+	}
+	&:active {
+		background: var(--secondary-color);
+		color: var(--primary-color);
+	}
+}
+.hover_primary path {
+	stroke: var(--gray-color);
+}
+
+.hover_inverted {
+	&:hover {
+		color: var(--inverted-secondary);
+	}
+
+	&:hover path {
+		stroke: var(--inverted-secondary);
+	}
+	&:active {
+		background: var(--secondary-color);
+		color: var(--inverted-secondary);
+	}
+}
+
+.large {
+	height: 75px;
+}
+
+.mid_wrapper {
+	z-index: 1;
+	pointer-events: none;
+	display: block;
+}
+
+.right {
+	height: 100%;
+	z-index: 1;
+	pointer-events: none;
+}
+
+.left {
+	height: 100%;
+	z-index: 1;
+	pointer-events: none;
+}
+
+.mid_up {
+	color: var(--gray-color);
+	padding: 5px 0px;
+	font: var(--font-very-s);
+}
+
+.mid_down {
+	color: var(--gray-color);
+	padding: 5px 0px;
+	font: var(--font-very-s);
+}
+
+.up {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.down {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}

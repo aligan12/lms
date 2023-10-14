@@ -1,0 +1,134 @@
+.Step {
+	width: 32%;
+	height: 50px;
+	display: flex;
+	justify-content: end;
+	align-items: center;
+	cursor: pointer;
+}
+
+.children {
+	display: flex;
+	gap: 5px;
+	align-items: center;
+	width: 85%;
+	height: 80%;
+	font: var(--font-very-s);
+}
+.primary {
+	color: var(--white);
+}
+
+.secondary {
+	color: var(--gray-color);
+}
+
+.first_step_primary {
+	background: var(--primary-color);
+	position: relative;
+
+	&:after {
+		z-index: 4;
+		border: 25px solid transparent;
+		border-left: 20px solid var(--primary-color);
+		content: '';
+		position: absolute;
+		right: -45px;
+		top: 0px;
+	}
+}
+
+.first_step_secondary {
+	background: var(--light-gray-color);
+	position: relative;
+
+	&:after {
+		z-index: 4;
+		border: 25px solid transparent;
+		border-left: 20px solid var(--light-gray-color);
+		content: '';
+		position: absolute;
+		right: -45px;
+		top: 0px;
+	}
+}
+
+.second_step_primary {
+	background: var(--primary-color);
+	position: relative;
+
+	&:after {
+		z-index: 4;
+		border: 25px solid transparent;
+		border-left: 20px solid var(--primary-color);
+		content: '';
+		position: absolute;
+		right: -45px;
+		top: 0px;
+	}
+
+	&:before {
+		z-index: 3;
+		border: 25px solid transparent;
+		border-left: 20px solid var(--secondary-color);
+		content: '';
+		position: absolute;
+		left: 0px;
+		top: 0px;
+	}
+}
+
+.second_step_secondary {
+	background: var(--light-gray-color);
+	position: relative;
+
+	&:after {
+		z-index: 4;
+		border: 25px solid transparent;
+		border-left: 20px solid var(--light-gray-color);
+		content: '';
+		position: absolute;
+		right: -45px;
+		top: 0px;
+	}
+
+	&:before {
+		z-index: 3;
+		border: 25px solid transparent;
+		border-left: 20px solid var(--secondary-color);
+		content: '';
+		position: absolute;
+		left: 0px;
+		top: 0px;
+	}
+}
+
+.last_step_primary {
+	background: var(--primary-color);
+	position: relative;
+
+	&:before {
+		z-index: 3;
+		border: 25px solid transparent;
+		border-left: 20px solid var(--secondary-color);
+		content: '';
+		position: absolute;
+		left: 0px;
+		top: 0px;
+	}
+}
+
+.last_step_secondary {
+	background: var(--light-gray-color);
+	position: relative;
+
+	&:before {
+		z-index: 3;
+		border: 25px solid transparent;
+		border-left: 20px solid var(--secondary-color);
+		content: '';
+		position: absolute;
+		left: 0px;
+		top: 0px;
+	}
+}

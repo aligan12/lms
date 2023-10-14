@@ -1,0 +1,15 @@
+.AddCourseCard {
+	display: grid;
+	place-items: center;
+	align-items: center;
+	padding: 18px;
+	background: var(--background);
+	border-radius: 5px;
+	gap: 18px;
+	min-height: 442px;
+	min-width: 228px;
+}
+.plus {
+	width: 140px;
+	height: auto;
+}

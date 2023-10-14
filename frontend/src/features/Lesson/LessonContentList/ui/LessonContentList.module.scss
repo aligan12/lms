@@ -1,0 +1,22 @@
+.drag_and_drop {
+	cursor: grab;
+	border-radius: 8px;
+
+	&:hover {
+		border: 2px solid var(--primary-color);
+	}
+}
+
+.content_wrapper {
+	pointer-events: none;
+	display: grid;
+	gap: 25px;
+	padding: 5px;
+}
+.list {
+	gap: 16px;
+}
+
+.drag_over {
+	background: red;
+}

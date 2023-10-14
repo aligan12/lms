@@ -1,0 +1,31 @@
+.EditCoursePage {
+	display: grid;
+	gap: 43px;
+}
+.main {
+	border-radius: 4px;
+	display: grid;
+
+	justify-content: space-between;
+	grid-template-areas:
+		'wrapper wrapper'
+		'left_block right_block';
+	background-color: var(--background);
+	padding: 24px;
+	grid-template-columns: auto 1fr;
+}
+
+.wrapper {
+	background-color: var(--background);
+	grid-area: wrapper;
+}
+
+.left_block {
+	grid-area: left_block;
+}
+
+.right_block {
+	grid-area: right_block;
+	display: flex;
+	justify-content: start;
+}

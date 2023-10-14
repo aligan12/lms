@@ -1,0 +1,11 @@
+.Grade {
+	background: var(--light-gray-color);
+
+	width: fit-content;
+	height: 48px;
+	display: grid;
+	text-align: center;
+	color: var(--gray-color);
+	align-items: center;
+	padding: 8px;
+}

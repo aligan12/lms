@@ -1,0 +1,14 @@
+const onSubmit: SubmitHandler<ICreateCourseData> = (formData: ICreateCourseData, event) => {
+		if (image !== undefined) {
+			event?.preventDefault()
+			formData.image = image
+			console.log(formData)
+			dispatch(createCourseRequest(formData))
+		}
+	}
+
+в тикет
+
+создать сервис - функ (криэт курс функ)
+создать слайс (криэт курс слайс)
+селектор гет ( крэт курс селесктор)

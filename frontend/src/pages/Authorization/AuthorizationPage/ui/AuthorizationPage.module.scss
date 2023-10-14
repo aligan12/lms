@@ -1,0 +1,15 @@
+.AuthorizationPage {
+	display: grid;
+	grid-auto-rows: min-content;
+	gap: 80px;
+	width: 100%;
+	height: 100%;
+}
+
+.form {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

@@ -1,0 +1,45 @@
+.lesson_list {
+	gap: 0px;
+}
+
+.primary {
+	&:hover {
+		border: 2px solid var(--primary-color);
+		background: var(--primary-color);
+	}
+}
+.lesson_Id {
+	grid-area: lesson_Id;
+}
+.module_Id {
+	grid-area: module_Id;
+}
+
+.event_none {
+	pointer-events: none;
+}
+
+.list_wrapper {
+	position: relative;
+}
+.buttons {
+	padding: 20px;
+	z-index: 25;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	grid-auto-rows: min-content;
+	width: fit-content;
+	display: grid;
+	gap: 8px;
+	height: 100%;
+	justify-self: center;
+	align-content: center;
+}
+
+.add_buttons {
+	padding: 15px;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}

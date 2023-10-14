@@ -1,0 +1,70 @@
+.Card {
+	padding: 18px;
+	background: var(--background);
+	border-radius: 5px;
+	height: fit-content;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 230px 30px 44px auto auto;
+	gap: 18px;
+	justify-content: flex-start;
+	align-items: center;
+}
+.mini_card {
+	padding: 18px;
+	background: none;
+	border-radius: 5px;
+	height: fit-content;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 230px 30px;
+	gap: 18px;
+	justify-content: flex-start;
+	align-items: center;
+}
+.image {
+	margin-bottom: 15px;
+	border-radius: 3px;
+	width: 100%;
+	height: 100%;
+	background: #e0e4f6;
+}
+.link {
+	width: 100%;
+	height: 100%;
+}
+.title {
+	margin-bottom: 11px;
+}
+
+.button {
+	width: 100%;
+	height: 46px;
+	justify-content: center;
+	display: flex;
+	gap: 20px;
+}
+.button button {
+	width: 100%;
+}
+.wrapper_button {
+	width: inherit;
+}
+.wrapper_button a {
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+.tegs {
+	display: grid;
+	grid-template-areas: 'first_teg second_teg third_teg';
+}
+
+.teg {
+	color: var(--inverted-secondary);
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 6px;
+}

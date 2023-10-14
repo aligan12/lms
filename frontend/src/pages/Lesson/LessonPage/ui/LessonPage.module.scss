@@ -1,0 +1,25 @@
+.LessonPage {
+	display: grid;
+	gap: 40px;
+	grid-template-columns: 65% 33%;
+	grid-template-areas: 'full_lesson all_lesson ';
+}
+
+.backButton {
+	max-width: 200px;
+}
+
+.full_lesson {
+	display: grid;
+	align-items: flex-start;
+	grid-auto-rows: max-content;
+	gap: 30px;
+	grid-area: full_lesson;
+}
+.all_lesson {
+	height: fit-content;
+	display: grid;
+	grid-auto-rows: min-content;
+	gap: 25px;
+	grid-area: all_lesson;
+}

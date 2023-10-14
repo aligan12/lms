@@ -1,0 +1,10 @@
+.LoadingPage {
+	display: flex;
+	gap: 30px;
+	align-items: center;
+	justify-content: center;
+	min-height: calc(100vh - var(--navbar-height));
+}
+.primary {
+	color: var(--primary-color);
+}

@@ -1,0 +1,21 @@
+.AfterRegistrationPage {
+	display: grid;
+	//justify-content: center;
+	height: fit-content;
+	gap: 30px;
+}
+.text {
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	margin-top: 25%;
+}
+.small_text {
+	color: var(--gray-color);
+    margin-top: 10px;
+
+}
+// .bottom{
+// 	margin-bottom: 50%;
+
+// }

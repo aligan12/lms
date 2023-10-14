@@ -1,0 +1,91 @@
+.HomePage {
+	display: grid;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	position: relative;
+	height: calc(90vh - var(--navbar-height));
+	padding: 24px;
+	width: 100%;
+}
+
+.buttons {
+	z-index: 3;
+	margin-top: 80px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.button {
+	z-index: 3;
+	height: fit-content;
+	width: 400px;
+}
+
+.text {
+	z-index: 3;
+}
+
+.small_text {
+	width: 55%;
+	z-index: 3;
+	color: var(--description-text);
+	margin-top: 30px;
+}
+
+.rocket {
+	margin-left: 30px;
+}
+
+.cloud1 {
+	z-index: 0;
+	width: 900px;
+	bottom: 0px;
+	right: 80px;
+	position: absolute;
+	transform: scale(-1, 1) rotate(12deg);
+	animation: zoomInOut 10s infinite;
+}
+
+.cloud2 {
+	z-index: 1;
+	width: 600px;
+	bottom: -50px;
+	right: 0px;
+	position: absolute;
+	transform: scale(-1, 1);
+	animation: zoomInOut 8s infinite;
+}
+
+.cloud3 {
+	z-index: 2;
+	width: 700px;
+	bottom: -100px;
+	right: 350px;
+	position: absolute;
+	display: none;
+}
+
+.text_wrapper {
+	padding-top: 50px;
+	position: inherit;
+	z-index: 3;
+	width: 80%;
+}
+
+.image_container {
+}
+
+@keyframes zoomInOut {
+	0%,
+	100% {
+		transform: scale(1) translateX(0px);
+	}
+	50% {
+		transform: scale(1.1) translateX(70px);
+	}
+}

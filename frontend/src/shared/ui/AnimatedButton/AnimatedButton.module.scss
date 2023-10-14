@@ -1,0 +1,24 @@
+.right_block {
+	width: 200px;
+	display: flex;
+	gap: 5px;
+	justify-content: flex-end;
+	align-items: center;
+}
+.button {
+	width: 29px;
+	height: 29px;
+	padding: 0px;
+}
+.hover_button {
+	width: fit-content;
+	height: 29px;
+	padding: 0px;
+
+	padding-left: 20px;
+}
+
+.go_text {
+	width: 100%;
+	height: 100%;
+}

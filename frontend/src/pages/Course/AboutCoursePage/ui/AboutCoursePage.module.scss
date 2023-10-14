@@ -1,0 +1,31 @@
+.AboutCoursePage {
+	display: grid;
+	gap: 40px;
+	grid-template-columns: 65% 33%;
+	grid-template-rows: minmax(175px, auto) 1fr;
+	justify-content: space-between;
+	grid-template-areas:
+		'course_title course_card'
+		'module_list course_card';
+}
+
+.course_title {
+	grid-area: course_title;
+	display: grid;
+	gap: 40px;
+	padding: 10px 50px 6px 0px;
+}
+
+.module_list {
+	display: grid;
+	gap: 25px;
+	grid-area: module_list;
+}
+
+.course_card {
+	grid-area: course_card;
+}
+
+.description {
+	color: var(--gray-color);
+}

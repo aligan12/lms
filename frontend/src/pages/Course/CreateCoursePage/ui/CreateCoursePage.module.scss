@@ -1,0 +1,24 @@
+.CreateCoursePage {
+	display: grid;
+	gap: 43px;
+}
+.main {
+	border-radius: 4px;
+	display: grid;
+
+	grid-template-areas:
+		'wrapper '
+		'left_block';
+	background-color: var(--background);
+	padding: 24px;
+	grid-auto-columns: 100%;
+}
+
+.wrapper {
+	background-color: var(--background);
+	grid-area: wrapper;
+}
+
+.left_block {
+	grid-area: left_block;
+}

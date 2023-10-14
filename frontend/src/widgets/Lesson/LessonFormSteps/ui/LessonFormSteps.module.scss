@@ -1,0 +1,22 @@
+.LessonFormSteps {
+	position: relative;
+	height: 100%;
+}
+.wrapper {
+	width: 100%;
+	height: fit-content;
+
+	align-items: start;
+}
+
+.steps {
+	display: flex;
+}
+.header {
+	background: var(--secondary-color);
+	padding: 5px;
+	margin-bottom: 20px;
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+}

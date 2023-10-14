@@ -1,0 +1,27 @@
+.Navbar {
+	position: sticky;
+	top: 0;
+	z-index: 5;
+	display: flex;
+	gap: 20px;
+	justify-content: space-between;
+	align-items: center;
+
+	width: 100%;
+	height: var(--navbar-height);
+	padding: 20px;
+
+	background: var(--background);
+}
+
+.left {
+	align-items: center;
+	gap: 36px;
+	display: flex;
+}
+
+.right {
+	gap: 24px;
+	align-items: center;
+	display: flex;
+}

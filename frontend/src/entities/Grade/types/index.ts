@@ -1,0 +1,1 @@
+export { IGradeData } from './Grade'

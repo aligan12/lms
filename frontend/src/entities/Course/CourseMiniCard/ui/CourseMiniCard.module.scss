@@ -1,0 +1,45 @@
+.mini_card {
+	background: none;
+	border-radius: 5px;
+	height: fit-content;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 230px 30px;
+	gap: 13px;
+	justify-content: flex-start;
+	align-items: center;
+}
+.image {
+	margin-bottom: 15px;
+	border-radius: 3px;
+	width: 100%;
+	height: 100%;
+	background: #e0e4f6;
+}
+.image_wrapper {
+	height: 230px;
+}
+
+.title {
+	margin-bottom: 11px;
+}
+
+.button {
+	width: 100%;
+	height: 46px;
+}
+.wrapper_button {
+	width: inherit;
+}
+.tegs {
+	display: grid;
+	grid-template-areas: 'first_teg second_teg third_teg';
+}
+
+.teg {
+	color: var(--inverted-secondary);
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 6px;
+}

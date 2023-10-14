@@ -1,0 +1,44 @@
+.download {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+.message {
+	margin-bottom: 10px;
+	background: var(--light-gray-color);
+	min-height: 137px;
+	width: 600px;
+	padding: 12px;
+	border-radius: 5px;
+	color: var(--inverted-secondary);
+	grid-area: message;
+}
+.title {
+	margin-bottom: 10px;
+	grid-area: title;
+}
+.hr {
+	margin-top: 24px;
+	max-width: 600px;
+}
+
+.red{
+	color: var(--red-color);
+}
+.green{
+	color: var(--primary-color);
+}
+
+.indicator_block {
+	display: grid;
+	justify-content: end;
+	//align-items: 100px;
+	grid-area: indicator_block;
+}
+.grid_block {
+	display: grid;
+	gap: 10px;
+	grid-template-areas:
+		'title title'
+		'message indicator_block';
+}

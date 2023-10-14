@@ -1,0 +1,20 @@
+/* Сбрасываем стили по умолчанию */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+input,
+button,
+textarea,
+select {
+	margin: 0;
+	font: inherit;
+}
+
+a {
+	color: inherit; /* blue colors for links too */
+	text-decoration: inherit; /* no underline */
+}

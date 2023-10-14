@@ -1,0 +1,15 @@
+.Header {
+	background: none;
+	width: 100%;
+	height: fit-content;
+}
+.button {
+	display: flex;
+	gap: 10px;
+}
+.wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 24px;
+}

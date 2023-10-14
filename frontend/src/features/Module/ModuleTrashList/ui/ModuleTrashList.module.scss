@@ -1,0 +1,22 @@
+.ModuleTrashList {
+	display: grid;
+	gap: 15px;
+}
+
+.trashItems {
+	border-radius: 8px;
+}
+
+.list {
+	gap: 10px;
+}
+.item {
+	background: var(--inverted-background);
+	width: 100%;
+}
+.header {
+	display: flex;
+	justify-content: flex-start;
+	gap: 10px;
+	align-items: center;
+}

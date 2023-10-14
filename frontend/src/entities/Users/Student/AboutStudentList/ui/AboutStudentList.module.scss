@@ -1,0 +1,12 @@
+.AboutStudentList {
+	background: var(--secondary-color);
+	display: grid;
+	grid-template-columns: 40px 1fr 1fr 147px 98px 124px 156px;
+
+	height: auto;
+	border-bottom: 1px solid var(--light-gray-color);
+	gap: 30px;
+	padding: 10px 15px;
+	justify-items: start;
+	align-items: center;
+}

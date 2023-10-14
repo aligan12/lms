@@ -1,0 +1,30 @@
+.Lesson {
+	display: grid;
+	gap: 20px;
+}
+
+.title {
+	margin-bottom: 30px;
+}
+
+.title_wrapper {
+	cursor: grab;
+	border-radius: 8px;
+
+	&:hover {
+		border: 2px solid var(--primary-color);
+	}
+}
+
+.video_wrapper {
+	cursor: grab;
+	border-radius: 8px;
+
+	&:hover {
+		border: 2px solid var(--primary-color);
+	}
+}
+
+.no_drag {
+	pointer-events: none;
+}

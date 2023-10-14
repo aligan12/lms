@@ -1,0 +1,22 @@
+.GroupTerm {
+	background: var(--background);
+	// justify-content: 100px;
+	padding: 22px 5px;
+}
+.tags {
+	display: flex;
+	gap: 4px;
+}
+.wrapper {
+	padding: 20px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	gap: 10px;
+}
+.buttons{
+	margin-right: 20px;
+}
+.title{
+	margin: 8px 0px;
+}

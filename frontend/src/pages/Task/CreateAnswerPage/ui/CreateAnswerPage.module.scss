@@ -1,0 +1,46 @@
+.CreateAnswerPage {
+	display: grid;
+	gap: 43px;
+}
+.main {
+	background-color: var(--background);
+	padding: 24px;
+	color: var(--gray-color);
+	border-radius: 4px;
+}
+
+.upload {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.head {
+	margin-top: 20px;
+}
+
+.form {
+	width: 60%;
+}
+
+.message {
+	background: var(--light-gray-color);
+	padding: 12px;
+	border-radius: 5px;
+	display: grid;
+	gap: 10px;
+}
+
+.grade_wrapper {
+	display: flex;
+	gap: 15px;
+	justify-content: flex-start;
+	align-items: center;
+}
+.answer {
+	width: 100%;
+	display: grid;
+	gap: 20px;
+}
+.comment_wrapper {
+}

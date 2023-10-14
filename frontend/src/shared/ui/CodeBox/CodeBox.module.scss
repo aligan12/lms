@@ -1,0 +1,16 @@
+.CodeBox {
+	padding: 24px 20px;
+	font: var(--font-very-s);
+	background: var(--background);
+	border-radius: 4px;
+}
+.code_wrapper {
+	border-radius: 4px;
+	padding: 20px 30px;
+	font: var(--font-very-s);
+	background: var(--inverted-secondary);
+	border-left: 6px solid var(--primary-hover-color);
+}
+.code {
+	color: var(--secondary-color);
+}

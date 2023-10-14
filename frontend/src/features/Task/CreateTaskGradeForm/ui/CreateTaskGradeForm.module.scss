@@ -1,0 +1,48 @@
+.ViewAnswerPage {
+	display: grid;
+	gap: 43px;
+}
+.main {
+	background-color: var(--background);
+	padding: 24px;
+	color: var(--gray-color);
+	border-radius: 4px;
+}
+
+.message {
+	background: var(--light-gray-color);
+	padding: 12px;
+	border-radius: 5px;
+}
+
+.download {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+.stars {
+	width: fit-content;
+}
+.wrapper {
+	display: grid;
+	gap: 10px;
+}
+.your_message {
+	max-height: 137px;
+	width: 600px;
+}
+
+.head {
+	margin-top: 20px;
+}
+.red {
+	color: var(--red-color);
+}
+.datetime {
+	display: flex;
+	gap: 10px;
+	justify-content: flex-end;
+}
+.button {
+	width: 25%;
+}

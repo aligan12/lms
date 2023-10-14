@@ -1,0 +1,50 @@
+.LessonListItem {
+	background: var(--secondary-color);
+	border: 1px solid var(--background);
+	border-radius: 0px 0px 4px 4px;
+	width: 100%;
+	height: max-content;
+	display: inline-flex;
+	justify-content: space-between;
+	position: relative;
+	padding: 20px;
+}
+.left_block {
+	pointer-events: none;
+	width: inherit;
+	display: grid;
+	gap: 12px;
+	color: var(--gray-color);
+}
+.right_block {
+	width: 200px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.button {
+	width: 29px;
+	height: 29px;
+	padding: 0px;
+	padding-top: 5px;
+}
+.hover_button {
+	width: 110px;
+	height: 29px;
+	padding: 0px;
+	padding-top: 4px;
+	padding-right: 7px;
+	padding-left: 20px;
+}
+
+.button_children {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.go_text {
+	width: 100%;
+	height: 100%;
+}

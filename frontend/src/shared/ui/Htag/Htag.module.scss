@@ -1,0 +1,30 @@
+.very_large {
+	font: var(--font-very-l);
+	color: var(--text-color);
+}
+
+.cursor {
+	cursor: default;
+}
+
+.large {
+	font: var(--font-l);
+	color: var(--text-color);
+}
+
+.medium {
+	font: var(--font-m);
+	color: var(--text-color);
+}
+
+.small {
+	font: var(--font-s);
+	color: var(--text-color);
+}
+
+.very_small {
+	font: var(--font-very-s);
+}
+.primary {
+	color: var(--primary-color);
+}

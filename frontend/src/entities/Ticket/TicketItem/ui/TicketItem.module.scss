@@ -1,0 +1,13 @@
+.TicketItem {
+	border-radius: 4px;
+	width: 100%;
+	background-color: var(--light-gray-color);
+	padding: 10px 0px;
+}
+
+.wrapper {
+	padding: 20px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}

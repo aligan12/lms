@@ -1,0 +1,57 @@
+.CreateTicketAnswerPage {
+	display: grid;
+	gap: 43px;
+}
+
+.main {
+	background-color: var(--background);
+	color: var(--gray-color);
+}
+
+.wrapper {
+	padding: 24px;
+	background-color: var(--background);
+	border-radius: 4px;
+}
+.download {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+.message {
+	margin-bottom: 10px;
+	background: var(--light-gray-color);
+	min-height: 137px;
+	width: 600px;
+	padding: 12px;
+	border-radius: 5px;
+	color: var(--inverted-secondary);
+	grid-area: message;
+}
+.title {
+	margin-bottom: 10px;
+	grid-area: title;
+}
+.hr {
+	margin-top: 24px;
+    max-width: 600px;
+}
+.indicator{
+	height: 150px;
+	width: 150px;
+
+}
+.indicator_block{
+	display: grid;
+	justify-content: end;
+	//align-items: 100px;
+	grid-area: indicator_block;
+
+}
+.grid_block{
+	display: grid;
+	gap: 10px;
+	grid-template-areas:
+		'title title'
+		'message indicator_block';
+}

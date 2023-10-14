@@ -1,0 +1,12 @@
+.text_input {
+	height: 127px;
+}
+.upload {
+	//justify-content: space-between;
+	gap: 5%;
+	align-items: center;
+	display: flex;
+}
+.file_name {
+	font: var(--font-very-s);
+}

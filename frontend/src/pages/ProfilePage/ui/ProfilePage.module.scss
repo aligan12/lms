@@ -1,0 +1,64 @@
+.ProfilePage {
+	display: grid;
+	gap: 43px;
+	height: 100%;
+}
+
+.main {
+	border-radius: 4px;
+	display: grid;
+	gap: 30px;
+	grid-auto-rows: min-content;
+	grid-template-areas:
+		'wrapper '
+		'card';
+	align-items: flex-start;
+	background-color: var(--background);
+	padding: 24px;
+}
+
+.wrapper {
+	background-color: var(--background);
+	grid-area: wrapper;
+}
+
+.card {
+	display: grid;
+	grid-template-columns: 200px 1fr;
+	gap: 26px;
+	grid-template-areas:
+		'ava full_name'
+		'ava contacts'
+		'ava information';
+}
+
+.ava {
+	justify-content: center;
+	align-items: flex-start;
+	display: grid;
+	grid-area: ava;
+}
+
+.full_name {
+	display: flex;
+	gap: 10px;
+	grid-area: full_name;
+}
+
+.contacts {
+	display: grid;
+	grid-area: contacts;
+}
+.information {
+	grid-area: information;
+}
+.about_box {
+	background: var(--light-gray-color);
+	min-height: 137px;
+	width: 50%;
+	padding: 12px;
+	border-radius: 5px;
+}
+.edit_wrapper {
+	width: 100%;
+}

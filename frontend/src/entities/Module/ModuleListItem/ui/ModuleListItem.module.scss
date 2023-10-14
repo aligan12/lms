@@ -1,0 +1,28 @@
+.ModuleListItem {
+	cursor: pointer;
+	background: var(--background);
+	border-top: 1px;
+	border-radius: 4px 4px 0px 0px;
+	width: 100%;
+
+	max-height: max-content;
+	display: inline-flex;
+	justify-content: space-between;
+	position: relative;
+	padding: 18px 20px;
+}
+.left_block {
+	pointer-events: none;
+	display: grid;
+	gap: 10px;
+	color: var(--gray-color);
+}
+.right_block {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 28px;
+}
+.description {
+	color: var(--gray-color);
+}

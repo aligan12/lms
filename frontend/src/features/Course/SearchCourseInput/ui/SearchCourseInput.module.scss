@@ -1,0 +1,15 @@
+.searchButton {
+	height: 40px;
+	width: 40px;
+	border-radius: 5px;
+	border: 2px solid var(--light-gray-color);
+}
+.SearchCourseInput {
+	background: var(--light-gray-color);
+	border-radius: 5px;
+	border: 2px solid var(--light-gray-color);
+	height: fit-content;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

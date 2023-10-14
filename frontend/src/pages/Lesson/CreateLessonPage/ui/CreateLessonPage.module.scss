@@ -1,0 +1,30 @@
+.CreateLessonPage {
+	position: relative;
+	width: 100%;
+	display: grid;
+	gap: 40px;
+	grid-template-columns: 65% 33%;
+	grid-template-areas: 'lesson form ';
+}
+
+.form {
+	height: calc(100vh - var(--navbar-height) - (2 * var(--layout-padding)));
+	position: sticky;
+	top: calc(var(--navbar-height) + var(--layout-padding));
+	left: 0;
+	border-radius: 8px;
+	padding: 16px;
+	background: var(--background);
+	grid-area: form;
+}
+
+.lesson {
+	display: grid;
+	grid-auto-rows: min-content;
+	gap: 20px;
+	grid-area: lesson;
+}
+
+.header h1 {
+	font: var(--font-m);
+}

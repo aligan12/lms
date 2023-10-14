@@ -1,0 +1,24 @@
+.CreateTaskPage {
+	display: grid;
+	gap: 43px;
+}
+
+.main {
+	background-color: var(--background);
+	padding: 24px;
+	color: var(--gray-color);
+	border-radius: 4px;
+
+}
+
+.wrapper {
+	display: flex;
+	gap: 30px;
+}
+
+.upload{
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

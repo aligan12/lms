@@ -1,0 +1,11 @@
+.wrapper {
+	min-height: 137px;
+	min-width: 600px;
+}
+.CreateTaskForm {
+	display: flex;
+	width: 100%;
+	gap: 60px;
+	justify-content: flex-start;
+	align-items: center;
+}

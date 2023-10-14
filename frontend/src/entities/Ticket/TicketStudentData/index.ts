@@ -1,0 +1,5 @@
+export { IListTicketStudentSchema } from './model/types/ListTicketStudentSchema.type'
+export { listTicketStudentReducer } from './model/slice/ListTicketStudentSlice'
+export { listTicketStudentRequest } from './services/listTicketStudentRequest'
+export { getTicketStudentData } from './model/selectors/getTicketStudentData'
+export { getTicketStudentError } from './model/selectors/getTicketStudentError'

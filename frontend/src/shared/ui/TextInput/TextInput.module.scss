@@ -1,0 +1,33 @@
+.TextInput {
+	width: 100%;
+	height: 100%;
+}
+
+.error {
+	padding: 5px;
+	color: var(--red);
+	font-size: 13px;
+}
+
+.textarea {
+	height: 100%;
+	resize: none;
+	width: 100%;
+	padding: 12px;
+	font: var(--font-s);
+	border-radius: 5px;
+	border: 1px solid var(--light-gray-color);
+	color: var(--inverted-secondary);
+	background-color: var(--light-gray-color);
+}
+
+.textarea::placeholder {
+	font: var(--font-s);
+	color: var(--gray-color);
+}
+
+.textarea:focus {
+	outline: 1;
+	outline-offset: 1;
+	outline-color: var(--primary);
+}

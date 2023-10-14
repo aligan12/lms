@@ -1,0 +1,23 @@
+.Layout {
+	display: grid;
+	grid-template-columns: auto 1fr;
+	grid-template-areas:
+		'navbar navbar'
+		'sidebar page';
+}
+
+.page {
+	background-color: var(--inverted-background);
+	padding: var(--layout-padding);
+	width: 98%;
+	border-radius: 8px;
+	grid-area: page;
+}
+
+.navbar {
+	grid-area: navbar;
+}
+
+.sidebar {
+	grid-area: sidebar;
+}

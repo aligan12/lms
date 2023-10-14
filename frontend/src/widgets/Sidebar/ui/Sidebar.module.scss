@@ -1,0 +1,20 @@
+.Sidebar {
+	position: sticky;
+	top: var(--navbar-height);
+	padding: 10px 12px;
+	background: var(--background);
+	width: 250px;
+	height: calc(100vh - var(--navbar-height));
+	display: grid;
+	grid-template-columns: 90%;
+	grid-template-rows: auto 50px;
+	justify-content: flex-start;
+}
+.top_button {
+	width: 100%;
+	height: 48px;
+}
+.bottom_button {
+	width: 100%;
+	height: 48px;
+}
