@@ -61,7 +61,7 @@ class CoursesTestsAdmin(APITestCase):
         self.assertEqual(Course.objects.count(), 2)
         self.assertEqual(data.get("title", ""), 'newTitle')
 
-        # UPDATE
+        # UPDATE hello
         url = reverse('course-update', kwargs={'pk': 1})
         update_data = {'title': 'updated'}
         response = self.client.put(url, update_data, format='json')
